@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Intro to Programming Notes</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="large">
+	
+	<h1>Intro to Programming: Notes</h1>
+
+	<img class="divider" alt="" src="divide.png" />
+
+	<div class="project1">
+
+		<p class="word">
+			<strong>DOM</strong> - <u>D</u>ocument <u>O</u>bject <u>M</u>odel
+		</p>
+		
+		<p class="definition">
+			A cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages).<br>
+			The nodes of every document are organized in a tree structure, called the DOM tree.<br>
+			In a browser, this structure shows up as a series of nested boxes.
+		</p>
+		
+		<p class = "word">
+			<strong>HTML</strong> - <u>H</u>yper<u>T</u>ext <u>M</u>arkup <u>L</u>anguage
+		</p>
+		
+		<p class ="definition">
+			The standard markup language used to create web pages.<br>
+			When writing HTML, we tell browsers the type of each element by using HTML tags.<br>
+			Elements are either inline or block. Block elements form an "invisible box" around the content inside of them.<br>
+			A good resource/tutorial is available at <a href="http://www.w3schools.com/html/">w3schools</a>.
+
+		</p>
+		
+		<p class="word">
+			<strong>CSS</strong> - <u>C</u>ascading <u>S</u>tyle <u>S</u>heets
+		</p>
+		
+		<p class="definition">
+			Style sheet language used for describing the look and formatting of a document written in a markup language.<br>
+			This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.<br>
+			CSS helps us to avoid repetition and to maintain consistency.<br>
+			This <a href="http://www.csszengarden.com/">zen garden</a> shows how cool and powerful these style sheets can be.
+		</p>
+
+	</div>
+
+	<img class="divider" alt="" src="divide.png" />
+
+	<div class="resources">
+
+		<img src="totoro.gif" class="right" alt="" />
+
+		<p class="word">
+			<strong>Other</strong> Resources
+		</p>
+
+		<ul>
+			<li>Hex codes for colors: <a href="http://www.color-hex.com/">www.color-hex.com</a></li>
+			<li>HTML & CSS courses: <a href="http://www.codecademy.com/en/tracks/web">www.codecademy.com</a></li>
+			<li>Neat tricks using CSS: <a href="https://css-tricks.com/">css-tricks.com</a></li>
+			<li>HTML Validation Service: <a href="http://validator.w3.org/">validator.w3.org</a></li>
+			<li>CSS Validation Service: <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">jigsaw.w3.org</a></li>
+			<li>Special ASCII HTML Character Codes: <a href="http://www.yellowpipe.com/yis/tools/ASCII-HTML-Characters/">www.yellowpipe.com</a></li>
+		</ul>
+
+	</div>
+
+	<img class="divider" alt="" src="divide.png" />
+
+		<div class="project2">
+
+			<p class="word">
+				<strong>Python</strong>
+			</p>
+			
+			<p class="definition">
+				High-level computer programming language, run by an interpreter of the same name.
+			</p>
+
+			<p class="word">
+				<strong>variable</strong>
+			</p>
+			
+			<p class="definition">
+				Assigned with the statement <span class="code">&lt;name> = &lt;expression></span><br>
+				The name can be alphanumeric and underscores, but cannot lead with a number.<br>
+				Once defined, a variable's value can be changed.<br>
+			</p>
+
+			<p class="word">
+				<strong>string</strong>
+			</p>
+			
+			<p class="definition">
+				Can use single (<span class="code">'</span>) or double (<span class="code">"</span>) quotes. Triple for multi-line (<span class="code">'''</span> or <span class="code">"""</span>).<br>
+				Indexed starting at 0: eg, <span class="code">&lt;string>[&lt;expression>]</span><br>
+				Negative expression goes backward, -1 being the last character of the string.<br>
+				Select subsequence of a string: <span class="code">&lt;string>[&lt;expression>:&lt;expression>]</span><br>
+				<span class="code">&lt;string>.find(&lt;substring>)</span> provides the position where the substring is first found.
+			</p>
+
+			<p class="word">
+				<strong>function</strong>
+			</p>
+			
+			<p class="definition">
+				A tool to create something that can be used repeatedly.<br>
+				To define: <span class="code">def &lt;function>(&lt;input>,&lt;input>,...]</span><br>
+				Use a return statement for the output.<br>
+				To use, call it by writing the name followed by values for the arguments in parenthesis.
+			</p>
+
+			<p class="word">
+				<strong>making decisions</strong>
+			</p>
+			
+			<p class="definition">
+				number comparison operators: <span class="code">&lt;</span>, <span class="code">></span>, <span class="code">&lt;=</span>, <span class="code">>=</span> [<strong>Boolean</strong> output]<br>
+				<span class="code">if</span>, <span class="code">elif</span>, <span class="code">else</span><br>
+				loops: <span class="code">while</span>, <span class="code">for</span><br>
+			</p>
+
+			<p class="word">
+				<strong>list</strong>
+			</p>
+			
+			<p class="definition">
+				Super versatile: a sequence of any combination of anything (strings, numbers, lists).<br>
+				<span class="code">&lt;list> = [&lt;expression>, &lt;expression>,...]</span><br>
+				Elements in a list can be <strong>mutated</strong>/changed after the list is created.<br>
+				Supports <strong>aliasing</strong>, for two different ways to refer to the same object.<br>
+				Operations include <span class="code">&lt;list>.append(&lt;element>)</span>, concatenation (<span class="code">+</span>), <span class="code">len(&lt;list>)</span>
+
+			</p>
+
+			<p class="word">
+				<strong>problem solving</strong>
+			</p>
+			
+			<p class="definition">
+				1. What are the inputs?<br>
+				2. What are the outputs?<br>
+				3. Solve the problem as a human, try some examples.<br>
+				4. Find simple mechanical solutions.<br>
+				5. Develop incrementally and test as you go.
+			</p>
+
+			<p class="word">
+				<strong>debugging</strong>
+			</p>
+			
+			<p class="definition">
+				Examine error messages.<br>
+				Check intermediate results by printing.<br>
+				Comment out (<span class="code">&#35;</span>) and check old versions.<br>
+			</p>
+
+		</div>
+
+</body>
+
+</html>

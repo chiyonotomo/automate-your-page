@@ -1,0 +1,78 @@
+body {
+	background-image: url("bg.png");
+	background-size: 1000px;
+	background-repeat: repeat-y;
+	padding: 10px 0 50px 215px;
+	max-width: 580px;
+}
+
+p {
+	margin: 0;
+}
+
+/* positioning images */
+
+.divider {
+	display: block;
+	margin: 0 auto;
+	width: 475px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/* stuff that changes how my text looks! */
+
+h1 {
+	font-family: Helvetica;
+	font-size: 23px;
+	font-weight: bold;
+	text-align: center;
+	color: #666699;
+	margin: 0;
+}
+
+.word {
+	margin-top: 10px;
+	font-family: Courier;
+	font-size: 16px;
+	color: #CC3300;
+}
+
+.definition {
+	margin: 4px 0 0 7px;
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #000000;
+	font-weight: normal;
+}
+
+.code {
+	font-family: Courier;
+	font-size:14px;
+	color: #a2ac72;
+}
+
+ul {
+	margin-top: 4px;
+	list-style-type: square;
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #000000;
+	font-weight: normal;
+}
+
+a:link {
+	color: #3399FF;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #0000FF;
+	text-decoration: underline;
+}
